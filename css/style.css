@@ -35,7 +35,7 @@
     border-radius: 10px;
 }
 .article{
-    background-color: plum;
+    background-color: rgb(150, 47, 150);
     width: 60px;
     height: 60px;
     padding: 50px;
@@ -44,6 +44,7 @@
     border-radius: 10px;
 }
 .footer{
+    background-color: wheat;
     width: 60px;
     height: 60px;
     padding: 50px;
@@ -52,10 +53,15 @@
     border-radius: 10px;
 }
 .PiePagina{
+    background-color: rgb(185, 56, 33);
     width: 60px;
     height: 60px;
     padding: 50px;
     margin: 50px;
     box-shadow: 10px 10px 20px black;
     border-radius: 10px;
+}
+.nav:hover{
+    width: 100px;
+    height: 100px;
 }
