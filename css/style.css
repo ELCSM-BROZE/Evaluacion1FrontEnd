@@ -1,0 +1,61 @@
+.header{
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.nav{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.section{
+    background-color: darkgreen;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.aside{
+    background-color: violet;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.article{
+    background-color: plum;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.footer{
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.PiePagina{
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
