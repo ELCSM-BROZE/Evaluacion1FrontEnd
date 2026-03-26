@@ -1,67 +1,80 @@
-.header{
-    width: 60px;
-    height: 60px;
-    background-color: blueviolet;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.header {
+    background-color: #3a6073;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(238, 96, 13);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav span {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav span:hover {
+    color: white;
+}
+
+.main {
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+}
+
+.noticia {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.noticia1 {
+    background-color: #3a6073;
+}
+
+.noticia2 {
+    background-color: #614385;
+}
+
+.noticia3 {
+    background-color: #6c7a89;
+}
+
+.noticia:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+    opacity: 0.95;
+}
+
+.article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #4b79a1;
+    color: white;
     border-radius: 10px;
 }
-.nav{
-    background-color: blue;
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.section{
-    background-color: darkgreen;
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.aside{
-    background-color: violet;
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.article{
-    background-color: rgb(150, 47, 150);
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.footer{
-    background-color: wheat;
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.PiePagina{
-    background-color: rgb(185, 56, 33);
-    width: 60px;
-    height: 60px;
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-}
-.nav:hover{
-    width: 100px;
-    height: 100px;
+
+.footer {
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
